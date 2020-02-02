@@ -38,7 +38,7 @@ stop_words_extra = ['i', 'me', 'my', 'myself', 'we', 'our', 'ours', 'ourselves',
 stop_words = stopwords.words("english")
 stop_words = stop_words + stop_words_extra
 
-
+# Preporcess data 
 def preprocess(data):
     reviews_tokens = []
     for review in data:
